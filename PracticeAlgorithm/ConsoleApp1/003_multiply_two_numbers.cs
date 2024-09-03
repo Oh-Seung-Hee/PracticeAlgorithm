@@ -7,7 +7,7 @@
 /// 0 ≤ num1 ≤ 100
 /// 0 ≤ num2 ≤ 100
 /// </summary>
-public class Solution
+public class Solution003
 {
     public int solution(int num1, int num2)
     {

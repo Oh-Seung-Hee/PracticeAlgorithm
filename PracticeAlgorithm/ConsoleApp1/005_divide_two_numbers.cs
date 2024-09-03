@@ -13,7 +13,7 @@
 #if sol_01
 using System;
 
-public class Solution
+public class Solution005
 {
     public int solution(int num1, int num2)
     {
@@ -33,7 +33,7 @@ public class Solution
 #elif sol_02
 using System;
 
-public class Solution
+public class Solution005
 {
     public int solution(int num1, int num2)
     {

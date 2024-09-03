@@ -7,7 +7,7 @@
 /// -10,000 ≤  numbers의 원소 ≤ 10,000
 /// 1 ≤  numbers의 길이 ≤ 1,000
 /// </summary>
-public class Solution
+public class Solution007
 {
     public int[] solution(int[] numbers)
     {
