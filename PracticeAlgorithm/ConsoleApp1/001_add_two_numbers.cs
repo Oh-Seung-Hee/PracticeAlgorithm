@@ -7,17 +7,20 @@
 /// -50,000 ≤ num1 ≤ 50,000
 /// -50,000 ≤ num2 ≤ 50,000
 /// </summary>
-public class Solution001
-{   
-    public int solution(int num1, int num2)
+namespace Level_0
+{
+    public class Solution001
     {
-        int answer = 0;
-
-        if (num1 >= -50000 && num1 <= 50000 && num2 >= -50000 && num2 <= 50000)
+        public int solution(int num1, int num2)
         {
-            answer = num1 + num2;
-        }
+            int answer = 0;
 
-        return answer;
+            if (num1 >= -50000 && num1 <= 50000 && num2 >= -50000 && num2 <= 50000)
+            {
+                answer = num1 + num2;
+            }
+
+            return answer;
+        }
     }
 }

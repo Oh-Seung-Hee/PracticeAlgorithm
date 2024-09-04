@@ -13,37 +13,49 @@
 #if sol_01
 using System;
 
-public class Solution006 {
-    public int solution(int num1, int num2) {
-        int answer = 0;
+namespace Level_0
+{
+    public class Solution006 {
+        public int solution(int num1, int num2)
+        {
+            int answer = 0;
 
-        if(num1 >= 0 && num1 <=10000 && num2 >= 0 && num2 <= 10000) {
-            if(num1 == num2) {
-                answer = 1;
-            } else {
-               answer = -1; 
-            }            
+            if (num1 >= 0 && num1 <= 10000 && num2 >= 0 && num2 <= 10000)
+            {
+                if (num1 == num2)
+                {
+                    answer = 1;
+                }
+                else
+                {
+                    answer = -1;
+                }
+            }
+
+            return answer;
+
         }
-
-        return answer;
     }
 }
 
 #elif sol_02
 using System;
 
-public class Solution006
+namespace Level_0
 {
-    public int solution(int num1, int num2)
+    public class Solution006
     {
-        int answer = 0;
-
-        if (num1 >= 0 && num1 <= 10000 && num2 >= 0 && num2 <= 10000)
+        public int solution(int num1, int num2)
         {
-            answer = num1 == num2 ? 1 : -1;
-        }
+            int answer = 0;
 
-        return answer;
+            if (num1 >= 0 && num1 <= 10000 && num2 >= 0 && num2 <= 10000)
+            {
+                answer = num1 == num2 ? 1 : -1;
+            }
+
+            return answer;
+        }
     }
 }
 #endif

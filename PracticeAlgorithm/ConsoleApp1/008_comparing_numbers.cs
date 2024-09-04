@@ -7,11 +7,14 @@
 /// 0 ≤ num1 ≤ 10,000
 /// 0 ≤ num2 ≤ 10,000
 /// </summary>
-public class Solution008
+namespace Level_0
 {
-    public int solution(int num1, int num2)
+    public class Solution008
     {
-        int answer = 0;
-        return answer = num1 == num2 ? 1 : -1;
+        public int solution(int num1, int num2)
+        {
+            int answer = 0;
+            return answer = num1 == num2 ? 1 : -1;
+        }
     }
 }

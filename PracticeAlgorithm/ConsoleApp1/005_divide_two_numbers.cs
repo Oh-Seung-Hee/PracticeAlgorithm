@@ -13,38 +13,44 @@
 #if sol_01
 using System;
 
-public class Solution005
+namespace Level_0
 {
-    public int solution(int num1, int num2)
+    public class Solution005
     {
-        int answer = 0;
-        float tmp = 0;
-
-        if (num1 > 0 && num1 <= 100 && num2 > 0 && num2 <= 100)
+        public int solution(int num1, int num2)
         {
-            tmp = (float)num1 / (float)num2;
-            answer = (int)(tmp * 1000);
-        }
+            int answer = 0;
+            float tmp = 0;
 
-        return answer;
+            if (num1 > 0 && num1 <= 100 && num2 > 0 && num2 <= 100)
+            {
+                tmp = (float)num1 / (float)num2;
+                answer = (int)(tmp * 1000);
+            }
+
+            return answer;
+        }
     }
 }
 
 #elif sol_02
 using System;
 
-public class Solution005
+namespace Level_0
 {
-    public int solution(int num1, int num2)
+    public class Solution005
     {
-        int answer = 0;
-
-        if (num1 > 0 && num1 <= 100 && num2 > 0 && num2 <= 100)
+        public int solution(int num1, int num2)
         {
-            answer = num1 * 1000 / num2;
-        }
+            int answer = 0;
 
-        return answer;
+            if (num1 > 0 && num1 <= 100 && num2 > 0 && num2 <= 100)
+            {
+                answer = num1 * 1000 / num2;
+            }
+
+            return answer;
+        }
     }
 }
 #endif
